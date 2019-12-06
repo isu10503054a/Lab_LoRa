@@ -18,11 +18,9 @@ with open(filename, 'w', newline='') as csvFile:
 
 
 
-#GIOT_ULTopic_prefix = "GIOT-GW/UL/"                        # MQTT topic for Uplink
-#GW_MAC = "1C497B4558A3"                                    # LoRa gateway MACaddr
-GIOT_ULTopic_prefix = "#"                        # MQTT topic for Uplink
-GW_MAC = ""                                    # LoRa gateway MACaddr
-Target_node_MAC = "0000000010700101"                       # LoRa node MACaddr
+GIOT_ULTopic_prefix = "GIOT-GW/UL/"                        # MQTT topic for Uplink
+GW_MAC = "1C497B4558A3"                                    # LoRa gateway MACaddr
+Target_node_MAC = "0000000099999999"                       # LoRa node MACaddr
 
 # JSON format to MCS web console
 # if MCS Data channel Id is different please change "dataChnId" value
